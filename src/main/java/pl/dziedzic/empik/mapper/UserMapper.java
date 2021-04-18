@@ -16,7 +16,6 @@ public class UserMapper {
 		userDto.setCalculations(requestCount);
 
 		return userDto;
-
 	}
 
 }

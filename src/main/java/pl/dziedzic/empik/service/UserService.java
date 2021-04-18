@@ -31,7 +31,6 @@ public class UserService {
 		}
 
 		int currentRequestCount = calculateRequestCount(login);
-
 		return toDto(userByLogin, currentRequestCount);
 	}
 

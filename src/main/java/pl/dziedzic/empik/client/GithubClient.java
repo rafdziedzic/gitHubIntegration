@@ -21,7 +21,6 @@ public class GithubClient {
 		return clientHttpRequestFactory;
 	}
 
-
 	public GithubUser getUserByLogin(String login) {
 		return restTemplate.getForObject(url + login, GithubUser.class);
 	}
